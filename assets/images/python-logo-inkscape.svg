@@ -63,7 +63,7 @@
           <animate
             attributeType="XML"
             attributeName="fill"
-            values="darkgray;white;darkgray"
+            values="darkgray;transparent;darkgray"
             dur="2s"
             repeatCount="indefinite"/>
   </path>
