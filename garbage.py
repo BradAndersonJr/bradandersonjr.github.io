@@ -1,6 +1,8 @@
 a = 'Ready'
 
+b = 'Not Ready'
+
 if a == True:
-    print('No issues here!')
+    print("You'll never see this!")
 else:
-    print('Not quite ready, please come check soon!')
+    print("Not ready yet, please check back soon!")
