@@ -11429,15 +11429,7 @@ div#notebook {
   -webkit-box-sizing: border-box;
   min-height: 100%;
 }
-@media not print {
-  #notebook-container {
-    padding: 15px;
-    background-color: #fff;
-    min-height: 0;
-    -webkit-box-shadow: 0px 0px 12px 1px rgba(87, 87, 87, 0.2);
-    box-shadow: 0px 0px 12px 1px rgba(87, 87, 87, 0.2);
-  }
-}
+
 @media print {
   #notebook-container {
     width: 100%;
@@ -13254,24 +13246,42 @@ $\sqrt{3x-1}+(1+x)^2.$</p>
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre><span class="ansi-cyan-intense-fg ansi-bold">arch</span>@      <span class="ansi-green-intense-fg ansi-bold">dmesg</span>*          <span class="ansi-green-intense-fg ansi-bold">ls</span>*          <span class="ansi-green-intense-fg ansi-bold">pwd</span>*        <span class="ansi-green-intense-fg ansi-bold">true</span>*
-<span class="ansi-cyan-intense-fg ansi-bold">awk</span>@       <span class="ansi-green-intense-fg ansi-bold">dnsdomainname</span>*  <span class="ansi-green-intense-fg ansi-bold">lsmod</span>*       <span class="ansi-green-intense-fg ansi-bold">readlink</span>*   <span class="ansi-green-intense-fg ansi-bold">umount</span>*
-<span class="ansi-cyan-intense-fg ansi-bold">basename</span>@  <span class="ansi-green-intense-fg ansi-bold">domainname</span>*     <span class="ansi-green-intense-fg ansi-bold">mail</span>*        <span class="ansi-cyan-intense-fg ansi-bold">red</span>@        <span class="ansi-green-intense-fg ansi-bold">uname</span>*
-<span class="ansi-green-intense-fg ansi-bold">bash</span>*      <span class="ansi-green-intense-fg ansi-bold">echo</span>*           <span class="ansi-green-intense-fg ansi-bold">mkdir</span>*       <span class="ansi-green-intense-fg ansi-bold">rm</span>*         <span class="ansi-green-intense-fg ansi-bold">uncompress</span>*
-<span class="ansi-cyan-intense-fg ansi-bold">bunzip2</span>@   <span class="ansi-cyan-intense-fg ansi-bold">ed</span>@             <span class="ansi-green-intense-fg ansi-bold">mknod</span>*       <span class="ansi-green-intense-fg ansi-bold">rmdir</span>*      <span class="ansi-green-intense-fg ansi-bold">usleep</span>*
-<span class="ansi-green-intense-fg ansi-bold">busybox</span>*   <span class="ansi-green-intense-fg ansi-bold">egrep</span>*          <span class="ansi-green-intense-fg ansi-bold">mktemp</span>*      <span class="ansi-green-intense-fg ansi-bold">run-parts</span>*  <span class="ansi-green-intense-fg ansi-bold">ver</span>*
-<span class="ansi-cyan-intense-fg ansi-bold">bzip2</span>@     <span class="ansi-green-intense-fg ansi-bold">false</span>*          <span class="ansi-green-intense-fg ansi-bold">more</span>*        <span class="ansi-green-intense-fg ansi-bold">sed</span>*        <span class="ansi-green-intense-fg ansi-bold">which</span>*
-<span class="ansi-green-intense-fg ansi-bold">cat</span>*       <span class="ansi-green-intense-fg ansi-bold">fgrep</span>*          <span class="ansi-green-intense-fg ansi-bold">mount</span>*       <span class="ansi-cyan-intense-fg ansi-bold">sh</span>@         <span class="ansi-blue-intense-fg ansi-bold">wrapper_checkpoints</span>/
-<span class="ansi-green-intense-fg ansi-bold">chgrp</span>*     <span class="ansi-cyan-intense-fg ansi-bold">gawk</span>@           <span class="ansi-green-intense-fg ansi-bold">mountpoint</span>*  <span class="ansi-green-intense-fg ansi-bold">sleep</span>*      <span class="ansi-green-intense-fg ansi-bold">zcat</span>*
-<span class="ansi-green-intense-fg ansi-bold">chmod</span>*     <span class="ansi-green-intense-fg ansi-bold">grep</span>*           <span class="ansi-green-intense-fg ansi-bold">mv</span>*          <span class="ansi-cyan-intense-fg ansi-bold">sort</span>@       <span class="ansi-green-intense-fg ansi-bold">zcmp</span>*
-<span class="ansi-green-intense-fg ansi-bold">chown</span>*     <span class="ansi-green-intense-fg ansi-bold">gunzip</span>*         <span class="ansi-green-intense-fg ansi-bold">nc</span>*          <span class="ansi-green-intense-fg ansi-bold">stty</span>*       <span class="ansi-green-intense-fg ansi-bold">zdiff</span>*
-<span class="ansi-green-intense-fg ansi-bold">cp</span>*        <span class="ansi-green-intense-fg ansi-bold">gzexe</span>*          <span class="ansi-cyan-intense-fg ansi-bold">netcat</span>@      <span class="ansi-green-intense-fg ansi-bold">su</span>*         <span class="ansi-green-intense-fg ansi-bold">zegrep</span>*
-<span class="ansi-green-intense-fg ansi-bold">cpio</span>*      <span class="ansi-green-intense-fg ansi-bold">gzip</span>*           <span class="ansi-green-intense-fg ansi-bold">netstat</span>*     <span class="ansi-green-intense-fg ansi-bold">sync</span>*       <span class="ansi-green-intense-fg ansi-bold">zfgrep</span>*
-<span class="ansi-cyan-intense-fg ansi-bold">csh</span>@       <span class="ansi-green-intense-fg ansi-bold">hostname</span>*       <span class="ansi-cyan-intense-fg ansi-bold">nice</span>@        <span class="ansi-green-intense-fg ansi-bold">tailf</span>*      <span class="ansi-green-intense-fg ansi-bold">zforce</span>*
-<span class="ansi-cyan-intense-fg ansi-bold">cut</span>@       <span class="ansi-cyan-intense-fg ansi-bold">igawk</span>@          <span class="ansi-cyan-intense-fg ansi-bold">pidof</span>@       <span class="ansi-green-intense-fg ansi-bold">tar</span>*        <span class="ansi-green-intense-fg ansi-bold">zgrep</span>*
-<span class="ansi-green-intense-fg ansi-bold">date</span>*      <span class="ansi-green-intense-fg ansi-bold">kill</span>*           <span class="ansi-green-intense-fg ansi-bold">ping</span>*        <span class="ansi-cyan-intense-fg ansi-bold">tcsh</span>@       <span class="ansi-green-intense-fg ansi-bold">zless</span>*
-<span class="ansi-green-intense-fg ansi-bold">dd</span>*        <span class="ansi-green-intense-fg ansi-bold">ln</span>*             <span class="ansi-green-intense-fg ansi-bold">ping6</span>*       <span class="ansi-green-intense-fg ansi-bold">tempfile</span>*   <span class="ansi-green-intense-fg ansi-bold">zmore</span>*
-<span class="ansi-green-intense-fg ansi-bold">df</span>*        <span class="ansi-green-intense-fg ansi-bold">login</span>*          <span class="ansi-green-intense-fg ansi-bold">ps</span>*          <span class="ansi-green-intense-fg ansi-bold">touch</span>*      <span class="ansi-green-intense-fg ansi-bold">znew</span>*
+<pre><span class="ansi-cyan-intense-fg ansi-bold">arch</span>@      <span class="ansi-green-intense-fg ansi-bold">dmesg</span>*          <span class="ansi-green-intense-fg ansi-bold">ls</span>*          <span class="ansi-green-intense-fg ansi-bold">pwd</span>*        <span class="ansi-green-intense-fg ansi-bold">true</span>*
+
+<span class="ansi-cyan-intense-fg ansi-bold">awk</span>@       <span class="ansi-green-intense-fg ansi-bold">dnsdomainname</span>*  <span class="ansi-green-intense-fg ansi-bold">lsmod</span>*       <span class="ansi-green-intense-fg ansi-bold">readlink</span>*   <span class="ansi-green-intense-fg ansi-bold">umount</span>*
+
+<span class="ansi-cyan-intense-fg ansi-bold">basename</span>@  <span class="ansi-green-intense-fg ansi-bold">domainname</span>*     <span class="ansi-green-intense-fg ansi-bold">mail</span>*        <span class="ansi-cyan-intense-fg ansi-bold">red</span>@        <span class="ansi-green-intense-fg ansi-bold">uname</span>*
+
+<span class="ansi-green-intense-fg ansi-bold">bash</span>*      <span class="ansi-green-intense-fg ansi-bold">echo</span>*           <span class="ansi-green-intense-fg ansi-bold">mkdir</span>*       <span class="ansi-green-intense-fg ansi-bold">rm</span>*         <span class="ansi-green-intense-fg ansi-bold">uncompress</span>*
+
+<span class="ansi-cyan-intense-fg ansi-bold">bunzip2</span>@   <span class="ansi-cyan-intense-fg ansi-bold">ed</span>@             <span class="ansi-green-intense-fg ansi-bold">mknod</span>*       <span class="ansi-green-intense-fg ansi-bold">rmdir</span>*      <span class="ansi-green-intense-fg ansi-bold">usleep</span>*
+
+<span class="ansi-green-intense-fg ansi-bold">busybox</span>*   <span class="ansi-green-intense-fg ansi-bold">egrep</span>*          <span class="ansi-green-intense-fg ansi-bold">mktemp</span>*      <span class="ansi-green-intense-fg ansi-bold">run-parts</span>*  <span class="ansi-green-intense-fg ansi-bold">ver</span>*
+
+<span class="ansi-cyan-intense-fg ansi-bold">bzip2</span>@     <span class="ansi-green-intense-fg ansi-bold">false</span>*          <span class="ansi-green-intense-fg ansi-bold">more</span>*        <span class="ansi-green-intense-fg ansi-bold">sed</span>*        <span class="ansi-green-intense-fg ansi-bold">which</span>*
+
+<span class="ansi-green-intense-fg ansi-bold">cat</span>*       <span class="ansi-green-intense-fg ansi-bold">fgrep</span>*          <span class="ansi-green-intense-fg ansi-bold">mount</span>*       <span class="ansi-cyan-intense-fg ansi-bold">sh</span>@         <span class="ansi-blue-intense-fg ansi-bold">wrapper_checkpoints</span>/
+
+<span class="ansi-green-intense-fg ansi-bold">chgrp</span>*     <span class="ansi-cyan-intense-fg ansi-bold">gawk</span>@           <span class="ansi-green-intense-fg ansi-bold">mountpoint</span>*  <span class="ansi-green-intense-fg ansi-bold">sleep</span>*      <span class="ansi-green-intense-fg ansi-bold">zcat</span>*
+
+<span class="ansi-green-intense-fg ansi-bold">chmod</span>*     <span class="ansi-green-intense-fg ansi-bold">grep</span>*           <span class="ansi-green-intense-fg ansi-bold">mv</span>*          <span class="ansi-cyan-intense-fg ansi-bold">sort</span>@       <span class="ansi-green-intense-fg ansi-bold">zcmp</span>*
+
+<span class="ansi-green-intense-fg ansi-bold">chown</span>*     <span class="ansi-green-intense-fg ansi-bold">gunzip</span>*         <span class="ansi-green-intense-fg ansi-bold">nc</span>*          <span class="ansi-green-intense-fg ansi-bold">stty</span>*       <span class="ansi-green-intense-fg ansi-bold">zdiff</span>*
+
+<span class="ansi-green-intense-fg ansi-bold">cp</span>*        <span class="ansi-green-intense-fg ansi-bold">gzexe</span>*          <span class="ansi-cyan-intense-fg ansi-bold">netcat</span>@      <span class="ansi-green-intense-fg ansi-bold">su</span>*         <span class="ansi-green-intense-fg ansi-bold">zegrep</span>*
+
+<span class="ansi-green-intense-fg ansi-bold">cpio</span>*      <span class="ansi-green-intense-fg ansi-bold">gzip</span>*           <span class="ansi-green-intense-fg ansi-bold">netstat</span>*     <span class="ansi-green-intense-fg ansi-bold">sync</span>*       <span class="ansi-green-intense-fg ansi-bold">zfgrep</span>*
+
+<span class="ansi-cyan-intense-fg ansi-bold">csh</span>@       <span class="ansi-green-intense-fg ansi-bold">hostname</span>*       <span class="ansi-cyan-intense-fg ansi-bold">nice</span>@        <span class="ansi-green-intense-fg ansi-bold">tailf</span>*      <span class="ansi-green-intense-fg ansi-bold">zforce</span>*
+
+<span class="ansi-cyan-intense-fg ansi-bold">cut</span>@       <span class="ansi-cyan-intense-fg ansi-bold">igawk</span>@          <span class="ansi-cyan-intense-fg ansi-bold">pidof</span>@       <span class="ansi-green-intense-fg ansi-bold">tar</span>*        <span class="ansi-green-intense-fg ansi-bold">zgrep</span>*
+
+<span class="ansi-green-intense-fg ansi-bold">date</span>*      <span class="ansi-green-intense-fg ansi-bold">kill</span>*           <span class="ansi-green-intense-fg ansi-bold">ping</span>*        <span class="ansi-cyan-intense-fg ansi-bold">tcsh</span>@       <span class="ansi-green-intense-fg ansi-bold">zless</span>*
+
+<span class="ansi-green-intense-fg ansi-bold">dd</span>*        <span class="ansi-green-intense-fg ansi-bold">ln</span>*             <span class="ansi-green-intense-fg ansi-bold">ping6</span>*       <span class="ansi-green-intense-fg ansi-bold">tempfile</span>*   <span class="ansi-green-intense-fg ansi-bold">zmore</span>*
+
+<span class="ansi-green-intense-fg ansi-bold">df</span>*        <span class="ansi-green-intense-fg ansi-bold">login</span>*          <span class="ansi-green-intense-fg ansi-bold">ps</span>*          <span class="ansi-green-intense-fg ansi-bold">touch</span>*      <span class="ansi-green-intense-fg ansi-bold">znew</span>*
+
 </pre>
 </div>
 </div>
