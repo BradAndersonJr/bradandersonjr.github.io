@@ -31,29 +31,16 @@
 		.single-col-max-width {
 			max-width: 1000px;
 			}
-		</style>
-
-	<script type="application/javascript">
-
-		function resizeIFrameToFitContent( iFrame ) {
-		
-			iFrame.width  = iFrame.contentWindow.document.body.scrollWidth;
-			iFrame.height = iFrame.contentWindow.document.body.scrollHeight;
+		.notebook {
+			width: 100%;
+			height: 100vh;
+			border: 1px;
+			border-style: solid;
+			border-color: lightgray;
+			border-radius: 4px;
+			overflow: hidden;
 		}
-		
-		window.addEventListener('DOMContentLoaded', function(e) {
-		
-			var iFrame = document.getElementById( 'iFrame1' );
-			resizeIFrameToFitContent( iFrame );
-		
-			// or, to resize all iframes:
-			var iframes = document.querySelectorAll("iframe");
-			for( var i = 0; i < iframes.length; i++) {
-				resizeIFrameToFitContent( iframes[i] );
-			}
-		} );
-		
-	</script>
+		</style>
 
 </head> 
 
@@ -142,10 +129,11 @@
 							<div class="intro">This is the template post for A Path To Python.</div>
 
 							<br>
-
-							<iframe src="notebooks/Overview_of_Colaboratory_Features.html" style="border:1px solid lightgrey; border-radius: 4px; overflow: hidden;">
+							
+							<iframe class="notebook" src="notebooks/Overview_of_Colaboratory_Features.html">
 								<p>Your browser does not support iframes.</p>
-								</iframe>
+							</iframe>
+							
 							<a href="https://colab.research.google.com/notebooks/basic_features_overview.ipynb">
 								<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 							</a>
