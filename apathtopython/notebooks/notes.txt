@@ -2,14 +2,30 @@ Conversion for .ipynb to .html
 
     move Test2.ipynb C:\Users\bradl\OneDrive\Documents\GitHub\bradandersonjr.github.io\apathtopython\notebooks & cd C:\Users\bradl\OneDrive\Documents\GitHub\bradandersonjr.github.io\apathtopython\notebooks & jupyter nbconvert --to html Test2.ipynb
 
-Search and delete below from .html .
+Search and delete below from .html:
 
-    @media not print {
-    #notebook-container {
-        padding: 15px;
-        background-color: #fff;
-        min-height: 0;
-        -webkit-box-shadow: 0px 0px 12px 1px rgba(87, 87, 87, 0.2);
-        box-shadow: 0px 0px 12px 1px rgba(87, 87, 87, 0.2);
-    }
-    }
+@media not print {
+  #notebook-container {
+    padding: 15px;
+    background-color: #fff;
+    min-height: 0;
+    -webkit-box-shadow: 0px 0px 12px 1px rgba(87, 87, 87, 0.2);
+    box-shadow: 0px 0px 12px 1px rgba(87, 87, 87, 0.2);
+  }
+}
+
+Search and replace below:
+
+From:
+
+body {
+  overflow: visible;
+  padding: 8px;
+}
+
+To:
+
+body {
+  overflow: hidden;
+  padding: 8px;
+}
