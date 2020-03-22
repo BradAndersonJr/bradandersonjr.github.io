@@ -1,10 +1,10 @@
-Conversion for .ipynb to .html
+>>> Conversion for .ipynb to .html
 
-    move Test2.ipynb C:\Users\bradl\OneDrive\Documents\GitHub\bradandersonjr.github.io\apathtopython\notebooks & 
+    move 20200321.ipynb C:\Users\bradl\OneDrive\Documents\GitHub\bradandersonjr.github.io\apathtopython\notebooks & 
     cd C:\Users\bradl\OneDrive\Documents\GitHub\bradandersonjr.github.io\apathtopython\notebooks & 
-    jupyter nbconvert --to html Test2.ipynb
+    jupyter nbconvert --to html 20200321.ipynb
 
-Search and delete below from .html: [ Ctrl + H ]
+>>> Search and delete below from .html: [ Ctrl + H ]
 
 @media not print {
   #notebook-container {
@@ -16,7 +16,7 @@ Search and delete below from .html: [ Ctrl + H ]
   }
 }
 
-Search and replace below: [ Ctrl + H ]
+>>> Search and replace below: [ Ctrl + H ]
 
 From:
 
@@ -39,3 +39,14 @@ body {
 div#notebook {
   overflow: hidden;
   border-top: none;
+
+>>> Add to just beneath <style type="text/css"> :
+
+/* Header/Logo Title */
+.header {
+    padding: 40px;
+    text-align: center;
+    background: lightsteelblue;
+    color: white;
+    font-size: 20px;
+}  
