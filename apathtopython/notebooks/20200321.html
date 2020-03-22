@@ -9,12 +9,6 @@
 
 
 <style type="text/css">
-  /* Style the body */
-  body {
-      font-family: Arial;
-      margin: 0;
-  }
-  
   /* Header/Logo Title */
   .header {
       padding: 40px;
@@ -22,10 +16,7 @@
       background: lightsteelblue;
       color: white;
       font-size: 20px;
-  }
-  
-  /* Page Content */
-  .content {padding:20px;}
+  }  
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -9387,7 +9378,7 @@ div.traceback-wrapper pre.traceback {
  * Author: Jupyter Development Team
  */
 body {
-  background-color: #fff;
+  background-color: #eee;
   /* This makes sure that the body covers the entire window and needs to
        be in a different element than the display: box in wrapper below */
   position: absolute;
@@ -13076,7 +13067,7 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
     <div class="header">
         <h1>Day One</h1>
-        <h4>Sat, Mar 21, 2020</h4>
+        <h6>Sat, Mar 21, 2020</h6>
     </div>
     <hr>
 
@@ -13095,14 +13086,21 @@ div#notebook {
 </div>
 
 
+
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+
+  <div class="alert alert-primary" role="alert">
+    This is a primary alert—check it out!
+  </div>
+
   <div class="alert alert-success" role="alert">
-  <h4 class="alert-heading">Well done!</h4>
-  <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
-  <hr>
-  <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+    <h4 class="alert-heading">Well done!</h4>
+    <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+    <hr>
+    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+  </div>
 </div>
 </div>
 </div>

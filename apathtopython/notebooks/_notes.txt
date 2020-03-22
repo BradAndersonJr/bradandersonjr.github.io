@@ -40,6 +40,18 @@ div#notebook {
   overflow: hidden;
   border-top: none;
 
+From:
+
+ */
+body {
+  background-color: #fff;
+
+To:
+
+ */
+body {
+  background-color: #eee;
+
 >>> Add to just beneath <style type="text/css"> :
 
 /* Header/Logo Title */
@@ -50,3 +62,8 @@ div#notebook {
     color: white;
     font-size: 20px;
 }  
+
+
+https://getbootstrap.com/docs/4.0/components/alerts/
+
+https://www.w3schools.com/bootstrap4/bootstrap_alerts.asp
