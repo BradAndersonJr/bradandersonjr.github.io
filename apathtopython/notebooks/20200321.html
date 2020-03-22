@@ -8,19 +8,24 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 
-
 <style type="text/css">
-    /*!
-*
-* Twitter Bootstrap
-*
-*/
-/*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+  /* Style the body */
+  body {
+      font-family: Arial;
+      margin: 0;
+  }
+  
+  /* Header/Logo Title */
+  .header {
+      padding: 40px;
+      text-align: center;
+      background: lightsteelblue;
+      color: white;
+      font-size: 20px;
+  }
+  
+  /* Page Content */
+  .content {padding:20px;}
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -13069,7 +13074,13 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Day-One">Day One<a class="anchor-link" href="#Day-One">&#182;</a></h1><h4 id="Sat,-Mar-21,-2020">Sat, Mar 21, 2020<a class="anchor-link" href="#Sat,-Mar-21,-2020">&#182;</a></h4><hr>
+    <div class="header">
+        <h1>Day One</h1>
+        <h4>Sat, Mar 21, 2020</h4>
+    </div>
+    <hr>
+
+    
 
 </div>
 </div>
@@ -13087,19 +13098,6 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-  <div class="progress">
-    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-  </div>
-
-    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-      Link with href
-    </a>
-  <div class="collapse" id="collapseExample">
-    <div class="card card-body">
-      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-    </div>
-  </div>
-
   <div class="alert alert-success" role="alert">
   <h4 class="alert-heading">Well done!</h4>
   <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
