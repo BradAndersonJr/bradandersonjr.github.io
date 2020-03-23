@@ -1,8 +1,8 @@
 >>> Conversion for .ipynb to .html
 
-    move 20200321.ipynb C:\Users\bradl\OneDrive\Documents\GitHub\bradandersonjr.github.io\apathtopython\notebooks & 
+    move 20200322.ipynb C:\Users\bradl\OneDrive\Documents\GitHub\bradandersonjr.github.io\apathtopython\notebooks & 
     cd C:\Users\bradl\OneDrive\Documents\GitHub\bradandersonjr.github.io\apathtopython\notebooks & 
-    jupyter nbconvert --to html 20200321.ipynb
+    jupyter nbconvert --to html 20200322.ipynb
 
 >>> Search and delete below from .html: [ Ctrl + H ]
 
@@ -50,7 +50,7 @@ To:
 
  */
 body {
-  background-color: #eee;
+  background-color: #fdfdfd;
 
 >>> Add to just beneath <style type="text/css"> :
 
