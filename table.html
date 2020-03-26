@@ -5,55 +5,35 @@
 <script defer src="copyClicked.js"></script>
 
 <style>
-#conversion-left {
+#conversion {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 50%;
 }
 
-#conversion-left td, #conversion-left th {
+#conversion td, #conversion th {
   border: 1px solid #ddd;
   padding: 8px;
+  text-align: right;
 }
 
-#conversion-left tr:nth-child(even){background-color: #f2f2f2;}
+#conversion tr:nth-child(even){background-color: #f2f2f2;}
 
-#conversion-left tr:hover {background-color: #ddd; cursor: pointer;}
+#conversion tr:hover {background-color: #ddd; cursor: pointer;}
 
-#conversion-left th {
+#conversion th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: center;
   background-color: orange;
   color: white;
 }
-#conversion-right {
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 50%;
-}
 
-#conversion-right td, #conversion-right th {
-  border: 1px solid #ddd;
-  padding: 8px;
-}
-
-#conversion-right tr:nth-child(even){background-color: #f2f2f2;}
-
-#conversion-right tr:hover {background-color: #ddd; cursor: pointer;}
-
-#conversion-right th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: center;
-  background-color: orange;
-  color: white;
-}
 </style>
 </head>
 <body>
 
-<table style="float: left"; id="conversion-left" class="dataframe">
+<table style="float: left"; id="conversion" class="dataframe">
   <thead>
     <th>Fraction</th>
     <th>Decimal</th>
@@ -255,7 +235,7 @@
       </tr>
   </tbody>
 </table>
-<table style="float: right"; id="conversion-right" class="dataframe">
+<table style="float: right"; id="conversion" class="dataframe">
     <thead>
       <th>Fraction</th>
       <th>Decimal</th>
