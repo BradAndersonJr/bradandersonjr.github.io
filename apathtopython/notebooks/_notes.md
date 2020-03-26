@@ -16,7 +16,7 @@
   }
 }
 
->>> Search and replace below: [ Ctrl + H ]
+### >>> Search and replace below: [ Ctrl + H ]
 
 From:
 
@@ -52,7 +52,7 @@ To:
 body {
   background-color: #fdfdfd;
 
->>> Add to just beneath <style type="text/css"> :
+### >>> Add to just beneath <style type="text/css"> :
 
 /* Header/Logo Title */
 .header {
