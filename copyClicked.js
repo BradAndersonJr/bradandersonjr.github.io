@@ -1,4 +1,4 @@
-$('div').click(function(){
+$('td').click(function(){
     copyTextToClipboard($(this).html());
 });
 
